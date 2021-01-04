@@ -1,0 +1,35 @@
+.inicial {
+    width: 500px;
+}
+
+.progress {
+    width: 290px;
+}
+
+.topo {
+    text-align: center;
+    height: 110px;
+}
+
+.cardInitial {
+    position: relative;
+    float: left;
+    border-width: 2px;
+    width: 20%;
+    height: 560px;
+    background-color: peachpuff;
+}
+.card{
+    position: relative;
+    float: left;
+    border-width: 2px;
+}
+
+.form-check {
+    align-items: center;
+    text-align: center;
+}
+
+p.categoria{
+    font-size: 20px;
+}
