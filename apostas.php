@@ -10,18 +10,19 @@
 </head>
 
 <body>
-    <div class="inicial">
-        <div class="container">
-            <h1>OSCAR 2021 </h1>
 
-            <h2> Indicados </h2>
+    <div class="container">
+        <h1>OSCAR 2021 </h1>
 
-            <p class="categoria"> Melhor Filme </p>
+        <h2> Indicados </h2>
 
-            <div class="cardInitial">
-                <form id="form">
-                    <!-- FILME -->
+        <p class="categoria"> Melhor Filme </p>
 
+
+        <form id="form">
+            <!-- FILME -->
+            <div class="testando">
+                <div class="cardInitial">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/image/Ford_v_Ferrari_poster.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -31,7 +32,10 @@
                             <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
                         </div>
                     </div>
+                </div>
 
+
+                <div class="cardInitial">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/image/Ford_v_Ferrari_poster.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -41,8 +45,9 @@
                             <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
                         </div>
                     </div>
+                </div>
 
-
+                <div class="cardInitial">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/image/Ford_v_Ferrari_poster.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -52,8 +57,10 @@
                             <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
                         </div>
                     </div>
+                </div>
 
 
+                <div class="cardInitial">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/image/Ford_v_Ferrari_poster.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -63,8 +70,10 @@
                             <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
                         </div>
                     </div>
+                </div>
 
 
+                <div class="cardInitial">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/image/Ford_v_Ferrari_poster.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -74,19 +83,23 @@
                             <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
                         </div>
                     </div>
+                </div>
 
-
-                </form>
             </div>
-            <!--       <div class="progress">
+
+            <button type="button" class="btn btn-dark">Enviar</button>
+
+        </form>
+
+        <!--       <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
                     <span class="sr-only">70% Complete</span>
                 </div>
             </div>-->
 
 
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <script src="assets/js/script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="assets/js/script.js"></script>
 </body>
 
 </html>

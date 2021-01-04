@@ -11,18 +11,43 @@
     height: 110px;
 }
 
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
 .cardInitial {
     position: relative;
     float: left;
     border-width: 2px;
     width: 20%;
-    height: 560px;
+    height: 425px;
     background-color: peachpuff;
 }
-.card{
+
+.card {
     position: relative;
-    float: left;
-    border-width: 2px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
 }
 
 .form-check {
@@ -30,6 +55,20 @@
     text-align: center;
 }
 
-p.categoria{
+p.categoria {
     font-size: 20px;
+}
+
+.testando {
+    height: 690px;
+    width: 1914px;
+    left: -408px;
+    background: rgb(25, 145, 250);
+    position: relative;
+}
+
+
+.button{
+    text-align:center;
+    align-items: center;
 }
